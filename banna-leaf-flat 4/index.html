@@ -1,0 +1,682 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Banna Leaf — Menghai pu-erh tea</title>
+<meta name="description" content="Menghai pu-erh tea from Yunnan: raw and ripe, a Starter Set of five teas and a plain guide to brewing. Follow one leaf from the old trees to your cup.">
+<meta name="theme-color" content="#FCFAF6">
+<!-- TODO: підставте свій справжній домен замість YOUR-DOMAIN.com (canonical, og:url, og:image, twitter:image) -->
+<link rel="canonical" href="https://YOUR-DOMAIN.com/">
+<!-- Open Graph: превью посилання в Telegram, Instagram, Facebook, WhatsApp -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Banna Leaf">
+<meta property="og:title" content="Banna Leaf — Menghai pu-erh tea">
+<meta property="og:description" content="Menghai pu-erh tea from Yunnan: raw and ripe, a Starter Set of five teas and a plain guide to brewing. Follow one leaf from the old trees to your cup.">
+<meta property="og:url" content="https://YOUR-DOMAIN.com/">
+<!-- TODO: og-image.jpg (1200×630) лежить поруч з index.html; завантажте на хостинг і перевірте, що адреса відкривається -->
+<meta property="og:image" content="https://YOUR-DOMAIN.com/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Illustrated misty tea terraces and an old tea tree in Menghai, Yunnan">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Banna Leaf — Menghai pu-erh tea">
+<meta name="twitter:description" content="Menghai pu-erh tea from Yunnan: raw and ripe, a Starter Set of five teas and a plain guide to brewing. Follow one leaf from the old trees to your cup.">
+<meta name="twitter:image" content="https://YOUR-DOMAIN.com/og-image.jpg">
+<!-- Іконки. TODO: замініть заглушку-фавіконку на свій файл (favicon.ico, favicon.svg), apple-touch-icon.png (180×180) — теж на свій логотип -->
+<link rel="icon" href="favicon.ico" sizes="48x48">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<!-- Шрифти: preconnect прискорює завантаження, display=swap у посиланні нижче -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="image" href="d08a17c9.webp" fetchpriority="high">
+<!-- GA4: вставити тег тут -->
+<!-- Meta Pixel: вставити тут -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&amp;family=DM+Sans:wght@400;500&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#FCFAF6;color:#3B2D22;font-family:'DM Sans',system-ui,sans-serif}
+a{color:#2F3E34;text-decoration:none}
+a:hover{color:#5A4331}
+.story{position:relative;height:900vh;background:#F3ECDD}
+.story-pin{position:sticky;top:0;height:100vh;overflow:hidden}
+.story-track{display:flex;height:100%;width:700%}
+.story-panel{position:relative;flex:0 0 calc(100% / 7);height:100%;overflow:hidden;background:#F3ECDD}
+.story-img{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:var(--pos,50% 50%)}
+.story-hero{position:absolute;left:clamp(20px,5vw,72px);top:50%;transform:translateY(-50%);width:min(520px,calc(100% - 40px));box-sizing:border-box}
+.story-cap{position:absolute;left:clamp(20px,5vw,72px);bottom:clamp(96px,15vh,150px);width:min(380px,calc(100% - 40px));box-sizing:border-box;background:rgba(252,250,246,0.94);border:1px solid #E6DCC9;padding:22px 26px}
+.story-bar{position:absolute;left:clamp(20px,5vw,72px);right:clamp(20px,5vw,72px);bottom:24px;background:rgba(252,250,246,0.92);border:1px solid #E6DCC9;padding:10px 16px 12px;box-sizing:border-box}
+.story-nums{display:flex;justify-content:space-between;font-size:11px;letter-spacing:0.18em;color:#6B5443;margin-bottom:8px}
+.story-line{height:2px;background:rgba(59,45,34,0.18)}
+.story-fill{height:2px;background:#2F3E34;transform-origin:left;transform:scaleX(0)}
+.hint-m{display:none}
+@keyframes story-slide{from{transform:translateX(0)}to{transform:translateX(-85.7143%)}}
+@keyframes story-fill{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@supports (animation-timeline:view()){
+.story{view-timeline-name:--story;view-timeline-axis:block}
+.story-track{animation:story-slide linear both;animation-timeline:--story;animation-range:contain 0% contain 100%}
+.story-fill{animation:story-fill linear both;animation-timeline:--story;animation-range:contain 0% contain 100%}
+}
+@media (max-width:760px),(prefers-reduced-motion:reduce){
+.story{height:auto}
+.story-pin{position:relative;height:auto;overflow-x:auto;scroll-snap-type:x mandatory}
+.story-track{width:auto;height:auto;animation:none!important;transform:none!important}
+.story-panel{flex:0 0 100%;height:min(88vh,720px);min-height:540px;scroll-snap-align:start}
+.story-bar{display:none}
+.hint-d{display:none}
+.hint-m{display:inline}
+.story-hero{background:rgba(252,250,246,0.94);border:1px solid #E6DCC9;padding:24px}
+.story-cap{bottom:24px}
+}
+@supports not (animation-timeline:view()){
+.story{height:auto}
+.story-pin{position:relative;height:auto;overflow-x:auto;scroll-snap-type:x mandatory}
+.story-track{width:auto;height:auto}
+.story-panel{flex:0 0 100%;height:min(88vh,720px);min-height:540px;scroll-snap-align:start}
+.story-bar{display:none}
+.hint-d{display:none}
+.hint-m{display:inline}
+.story-hero{background:rgba(252,250,246,0.94);border:1px solid #E6DCC9;padding:24px}
+.story-cap{bottom:24px}
+}
+.rv-stage{user-select:none;-webkit-user-select:none;cursor:grab;position:relative;height:clamp(470px,54vw,560px);perspective:1500px;perspective-origin:50% 50%;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.rv-drum{position:relative;width:min(640px,88vw);height:250px;transform-style:preserve-3d}
+.rv-card{position:absolute;left:0;top:0;width:100%;height:100%;box-sizing:border-box;padding:26px 32px;background:#FCFAF6;border:1px solid #E6DCC9;backface-visibility:hidden;-webkit-backface-visibility:hidden;transform:rotateX(calc(var(--i) * -60deg)) translateZ(234px);display:flex;flex-direction:column;justify-content:space-between}
+@media (prefers-reduced-motion:reduce){
+.rv-stage{height:auto;perspective:none;display:block;overflow:visible}
+.rv-drum{transform:none!important;height:auto;width:auto;display:grid;gap:16px;max-width:680px;margin:0 auto}
+.rv-card{position:relative;transform:none;backface-visibility:visible;height:auto;gap:18px}
+}
+.seal{display:block;transform:rotate(var(--tilt,0deg));mix-blend-mode:multiply}
+@keyframes seal-stamp{0%{opacity:0;transform:scale(1.7) rotate(calc(var(--tilt,0deg) - 14deg))}60%{opacity:1;transform:scale(0.94) rotate(var(--tilt,0deg))}80%{opacity:1;transform:scale(1.03) rotate(var(--tilt,0deg))}100%{opacity:1;transform:scale(1) rotate(var(--tilt,0deg))}}
+@supports (animation-timeline:view()){
+.seal{animation:seal-stamp linear both;animation-timeline:view();animation-range:entry 0% entry 50%}
+.seal-2{animation-range:entry 8% entry 58%}
+.seal-3{animation-range:entry 16% entry 66%}
+.seal-4{animation-range:entry 24% entry 74%}
+}
+@media (prefers-reduced-motion:reduce){.seal{animation:none!important;opacity:1!important}}
+@keyframes px-img{from{transform:translateY(-22%)}to{transform:translateY(0)}}
+@keyframes px-word{from{transform:translateY(120px)}to{transform:translateY(0)}}
+@supports (animation-timeline:view()){
+.px-strip{view-timeline-name:--strip;view-timeline-axis:block}
+.px-img{animation:px-img linear both;animation-timeline:--strip;animation-range:entry 0% entry 100%}
+.px-word{animation:px-word linear both;animation-timeline:view();animation-range:entry 10% entry 100%}
+}
+@media (prefers-reduced-motion:reduce){.px-img,.px-word{animation:none!important}}
+@property --iwa{syntax:"<percentage>";inherits:false;initial-value:140%}
+@property --iwb{syntax:"<percentage>";inherits:false;initial-value:140%}
+@keyframes iw-draw{from{--iwa:-50%}to{--iwa:105%}}
+@keyframes iw-bloom{from{--iwb:-30%}to{--iwb:105%}}
+@keyframes iw-deepen{from{filter:saturate(.85) brightness(1.1) contrast(.9)}to{filter:saturate(1) brightness(1) contrast(1)}}
+@keyframes iw-fade{from{opacity:1}to{opacity:0}}
+@keyframes iw-settle{from{transform:scale(1.05)}to{transform:scale(1)}}
+@keyframes iw-rise{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:translateY(0)}}
+.iw-inner{background:#FCFAF6}
+.iw-arm .iw-col{--iwb:-30%;-webkit-mask-image:radial-gradient(circle farthest-corner at 82% 62%,#000 var(--iwb),transparent calc(var(--iwb) + 24%)),radial-gradient(circle farthest-corner at 30% 18%,#000 calc(var(--iwb) * .85 - 8%),transparent calc(var(--iwb) * .85 + 16%)),radial-gradient(circle farthest-corner at 58% 78%,#000 calc(var(--iwb) * .9 - 6%),transparent calc(var(--iwb) * .9 + 18%));mask-image:radial-gradient(circle farthest-corner at 82% 62%,#000 var(--iwb),transparent calc(var(--iwb) + 24%)),radial-gradient(circle farthest-corner at 30% 18%,#000 calc(var(--iwb) * .85 - 8%),transparent calc(var(--iwb) * .85 + 16%)),radial-gradient(circle farthest-corner at 58% 78%,#000 calc(var(--iwb) * .9 - 6%),transparent calc(var(--iwb) * .9 + 18%));filter:saturate(.85) brightness(1.1) contrast(.9)}
+.iw-arm .iw-inner{transform:scale(1.05)}
+.iw-l1,.iw-l2,.iw-l3{display:none}
+.iw-arm .iw-l1,.iw-arm .iw-l2,.iw-arm .iw-l3{display:block;--iwa:-50%;-webkit-mask-image:linear-gradient(105deg,#000 var(--iwa),transparent calc(var(--iwa) + 45%));mask-image:linear-gradient(105deg,#000 var(--iwa),transparent calc(var(--iwa) + 45%))}
+.iw-go .iw-l1{animation:iw-draw .8s ease-in-out both,iw-fade .35s ease-in 1.9s both}
+.iw-go .iw-l2{animation:iw-draw .8s ease-in-out .3s both,iw-fade .35s ease-in 1.9s both}
+.iw-go .iw-l3{animation:iw-draw .8s ease-in-out .6s both,iw-fade .35s ease-in 1.9s both}
+.iw-go .iw-inner{animation:iw-settle 2.4s ease-out both}
+.iw-go .iw-col{animation:iw-bloom 1.3s ease-in-out .8s both,iw-deepen 1.1s ease-in-out 1.1s both}
+.iw-rowarm .iw-t1,.iw-rowarm .iw-t2,.iw-rowarm .iw-t3{opacity:0;transform:translateY(22px)}
+.iw-rowgo .iw-t1{animation:iw-rise .7s ease-out both}
+.iw-rowgo .iw-t2{animation:iw-rise .7s ease-out .2s both}
+.iw-rowgo .iw-t3{animation:iw-rise .7s ease-out .4s both}
+</style>
+
+<style>*,*::before,*::after{box-sizing:border-box}img{max-width:100%}[data-if]{display:none!important}[data-if].on-flex{display:flex!important}[data-if].on-block{display:block!important}@media (max-width:760px){.hero-copy{background:rgba(252,250,246,0.94);border:1px solid #E6DCC9;padding:24px}}
+</style>
+</head>
+<body>
+
+<div style="background:#FCFAF6;font-family:'DM Sans',system-ui,sans-serif;color:#3B2D22">
+
+<!-- Announcement bar -->
+<div style="background:#232F27;color:#EFE7D8;text-align:center;font-size:13px;letter-spacing:0.04em;padding:10px 16px">10% off delivery in the EU</div>
+
+<!-- Header -->
+<header style="background:#FCFAF6;border-bottom:1px solid #E6DCC9">
+<div style="max-width:1280px;margin:0 auto;padding:20px 32px;box-sizing:border-box;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px 32px">
+<a href="#" style="font-family:'Cormorant Garamond',Georgia,serif;font-size:30px;font-weight:500;color:#2F3E34;letter-spacing:0.02em">Banna Leaf</a>
+<nav style="display:flex;flex-wrap:wrap;gap:12px 36px;font-size:14px;letter-spacing:0.06em;text-transform:uppercase">
+<a href="#shop" style="color:#3B2D22;padding:12px 0">Shop</a>
+<a href="#guide" style="color:#3B2D22;padding:12px 0">Menghai Guide</a>
+<a href="#club" style="color:#3B2D22;padding:12px 0">Subscription</a>
+<a href="#about" style="color:#3B2D22;padding:12px 0">About</a>
+</nav>
+<div style="display:flex;gap:8px;align-items:center">
+<a href="#" data-open="call" style="display:inline-flex;align-items:center;min-height:40px;padding:0 18px;margin-right:8px;border:1px solid #2F3E34;color:#2F3E34;font-size:13px;letter-spacing:0.08em;text-transform:uppercase;border-radius:2px">Request a call</a>
+<a href="#" aria-label="Cart" data-open="cart" style="position:relative;width:44px;height:44px;display:flex;align-items:center;justify-content:center"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#3B2D22" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 8h14l-1 12H6L5 8z"></path><path d="M9 8V6a3 3 0 016 0v2"></path></svg><span data-if="cartHas" data-d="flex" style="position:absolute;top:3px;right:0;min-width:18px;height:18px;padding:0 5px;box-sizing:border-box;align-items:center;justify-content:center;border-radius:9px;background:#2F3E34;color:#F6F1E7;font-size:11px;line-height:1;display:flex"><span id="md-cart-count"></span></span></a>
+</div>
+</div>
+</header>
+
+<!-- Hero -->
+<section style="position:relative;background:#F3ECDD;overflow:hidden">
+<img width="1920" height="1072" fetchpriority="high" decoding="async" src="d08a17c9.webp" alt="Pack mules carrying bundled tea cakes along a stone path on a misty mountain slope, with an old tea tree on the right" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:88% 50%">
+<div style="position:relative;min-height:clamp(560px,88vh,820px);display:flex;align-items:center;box-sizing:border-box;padding:clamp(56px,8vw,96px) clamp(20px,5vw,72px)">
+<div class="hero-copy" style="width:min(520px,100%);box-sizing:border-box">
+<div style="font-size:13px;letter-spacing:0.22em;text-transform:uppercase;color:#6B5443">Menghai pu-erh</div>
+<h1 style="margin:18px 0 0;font-family:'Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(44px,5.6vw,76px);line-height:1.04;letter-spacing:-0.025em;color:#2F3E34;text-wrap:balance">A quiet place to begin with <span style="white-space:nowrap">pu-erh.</span></h1>
+<div style="width:56px;height:1px;background:#8B6B4F;margin:26px 0"></div>
+<p style="margin:0;font-size:18px;line-height:1.65;color:#5A4331;max-width:440px">Tea from old mountain trees, with a plain guide to brewing it.</p>
+<div style="display:flex;flex-wrap:wrap;gap:16px;margin-top:32px">
+<a href="#shop" style="display:inline-flex;align-items:center;min-height:48px;padding:0 32px;background:#2F3E34;color:#F6F1E7;font-size:14px;letter-spacing:0.08em;text-transform:uppercase;border-radius:2px">Choose your tea</a>
+<a href="#guide" style="display:inline-flex;align-items:center;min-height:48px;padding:0 32px;border:1px solid #2F3E34;color:#2F3E34;font-size:14px;letter-spacing:0.08em;text-transform:uppercase;border-radius:2px">Read the Guide</a>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Shop -->
+<section id="shop" style="background:#FCFAF6">
+<div style="max-width:1280px;margin:0 auto;padding:96px clamp(16px,4vw,32px) 112px;box-sizing:border-box">
+<div style="text-align:center;margin-bottom:56px">
+<h2 style="margin:0 0 12px;font-family:'Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(36px,4.4vw,52px);color:#2F3E34">Choose your tea</h2>
+<p style="margin:0;font-size:17px;color:#6B5443">Raw, ripe, or a little of both.</p>
+</div>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:16px">
+
+<div style="flex:1 1 220px;min-width:0;display:flex;flex-direction:column;background:#F6F1E7">
+<div style="aspect-ratio:4/5;position:relative;background:#FFFFFF;overflow:hidden"><img width="1000" height="1250" loading="lazy" decoding="async" src="b5a892d9.webp" alt="Five kraft paper tea sample pouches tied with twine" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover"></div>
+<div style="flex:1;padding:16px 16px 20px;display:flex;flex-direction:column;gap:6px">
+<div style="font-family:'Cormorant Garamond',Georgia,serif;font-size:24px;color:#2F3E34">Starter Set</div>
+<div style="font-size:14px;color:#6B5443;line-height:1.5">5 teas, 10 g each, with a brewing card</div>
+<div style="font-family:'Cormorant Garamond',Georgia,serif;font-size:28px;line-height:1.1;color:#2F3E34;padding-top:8px;margin-top:auto;margin-bottom:12px">€15 <span style="font-family:'DM Sans',system-ui,sans-serif;font-size:13px;letter-spacing:0.04em;color:#6B5443">/ set</span></div>
+<a href="#" data-add="starter" style="margin-top:0;display:inline-flex;align-items:center;justify-content:center;min-height:44px;border:1px solid #2F3E34;color:#2F3E34;font-size:13px;letter-spacing:0.08em;text-transform:uppercase">Add to cart</a>
+</div>
+</div>
+
+<div style="flex:1 1 220px;min-width:0;display:flex;flex-direction:column;background:#F6F1E7">
+<div style="aspect-ratio:4/5;position:relative;background:#FFFFFF;overflow:hidden"><img width="1000" height="1250" loading="lazy" decoding="async" src="1f307362.webp" alt="Round pressed ripe pu-erh cake, partly wrapped in paper" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover"></div>
+<div style="flex:1;padding:16px 16px 20px;display:flex;flex-direction:column;gap:6px">
+<div style="font-family:'Cormorant Garamond',Georgia,serif;font-size:24px;color:#2F3E34">Ripe Pu-erh</div>
+<div style="font-size:14px;color:#6B5443;line-height:1.5">Shu. A cosy evening tea, forgiving to brew</div>
+<div style="font-family:'Cormorant Garamond',Georgia,serif;font-size:28px;line-height:1.1;color:#2F3E34;padding-top:8px;margin-top:auto;margin-bottom:12px">€12 <span style="font-family:'DM Sans',system-ui,sans-serif;font-size:13px;letter-spacing:0.04em;color:#6B5443">/ 100 g</span></div>
+<a href="#" data-add="ripe" style="margin-top:0;display:inline-flex;align-items:center;justify-content:center;min-height:44px;border:1px solid #2F3E34;color:#2F3E34;font-size:13px;letter-spacing:0.08em;text-transform:uppercase">Add to cart</a>
+</div>
+</div>
+
+<div style="flex:1 1 220px;min-width:0;display:flex;flex-direction:column;background:#F6F1E7">
+<div style="aspect-ratio:4/5;position:relative;background:#FFFFFF;overflow:hidden"><img width="1000" height="1250" loading="lazy" decoding="async" src="b2b80d0a.webp" alt="Round pressed raw pu-erh cake, partly wrapped in paper" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover"></div>
+<div style="flex:1;padding:16px 16px 20px;display:flex;flex-direction:column;gap:6px">
+<div style="font-family:'Cormorant Garamond',Georgia,serif;font-size:24px;color:#2F3E34">Raw Pu-erh</div>
+<div style="font-size:14px;color:#6B5443;line-height:1.5">Sheng. A lively afternoon tea, many infusions per leaf</div>
+<div style="font-family:'Cormorant Garamond',Georgia,serif;font-size:28px;line-height:1.1;color:#2F3E34;padding-top:8px;margin-top:auto;margin-bottom:12px">€14 <span style="font-family:'DM Sans',system-ui,sans-serif;font-size:13px;letter-spacing:0.04em;color:#6B5443">/ 100 g</span></div>
+<a href="#" data-add="raw" style="margin-top:0;display:inline-flex;align-items:center;justify-content:center;min-height:44px;border:1px solid #2F3E34;color:#2F3E34;font-size:13px;letter-spacing:0.08em;text-transform:uppercase">Add to cart</a>
+</div>
+</div>
+
+<div style="flex:1 1 220px;min-width:0;display:flex;flex-direction:column;background:#F6F1E7">
+<div style="aspect-ratio:4/5;position:relative;background:#FFFFFF;overflow:hidden"><img width="1000" height="1250" loading="lazy" decoding="async" src="04f115b5.webp" alt="Blue-and-white porcelain gaiwan, pitcher and two cups" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover"></div>
+<div style="flex:1;padding:16px 16px 20px;display:flex;flex-direction:column;gap:6px">
+<div style="font-family:'Cormorant Garamond',Georgia,serif;font-size:24px;color:#2F3E34">Teaware</div>
+<div style="font-size:14px;color:#6B5443;line-height:1.5">Gaiwan, cups and a pitcher</div>
+<div style="font-family:'Cormorant Garamond',Georgia,serif;font-size:28px;line-height:1.1;color:#2F3E34;padding-top:8px;margin-top:auto;margin-bottom:12px">€30</div>
+<a href="#" data-add="teaware" style="margin-top:0;display:inline-flex;align-items:center;justify-content:center;min-height:44px;border:1px solid #2F3E34;color:#2F3E34;font-size:13px;letter-spacing:0.08em;text-transform:uppercase">Add to cart</a>
+</div>
+</div>
+
+<div style="flex:1 1 220px;min-width:0;display:flex;flex-direction:column;background:#F6F1E7">
+<div style="aspect-ratio:4/5;position:relative;background:#FFFFFF;overflow:hidden"><img width="1000" height="1250" loading="lazy" decoding="async" src="4fbd3c9e.webp" alt="Open kraft gift box with a wrapped tea cake, two cups and a ribbon" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover"></div>
+<div style="flex:1;padding:16px 16px 20px;display:flex;flex-direction:column;gap:6px">
+<div style="font-family:'Cormorant Garamond',Georgia,serif;font-size:24px;color:#2F3E34">Gift Sets</div>
+<div style="font-size:14px;color:#6B5443;line-height:1.5">Tea and teaware, ready to give</div>
+<div style="font-family:'Cormorant Garamond',Georgia,serif;font-size:28px;line-height:1.1;color:#2F3E34;padding-top:8px;margin-top:auto;margin-bottom:12px">€50</div>
+<a href="#" data-add="gift" style="margin-top:0;display:inline-flex;align-items:center;justify-content:center;min-height:44px;border:1px solid #2F3E34;color:#2F3E34;font-size:13px;letter-spacing:0.08em;text-transform:uppercase">Add to cart</a>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- Trust strip -->
+<section style="background-color:#F1E8D6;background-image:radial-gradient(rgba(139,107,79,0.08) 1px,transparent 1px);background-size:16px 16px;border-top:1px solid #E6DCC9;border-bottom:1px solid #E6DCC9">
+<div style="max-width:1200px;margin:0 auto;padding:clamp(48px,6vw,80px) clamp(16px,4vw,32px);box-sizing:border-box;display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:40px 24px">
+<div style="display:flex;flex-direction:column;align-items:center;text-align:center;gap:18px">
+<svg class="seal seal-1" style="--tilt:0deg" width="132" height="132" viewBox="0 0 140 140" aria-hidden="true"><defs><filter id="ink1" x="-10%" y="-10%" width="120%" height="120%"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="3" result="n"></feTurbulence><feDisplacementMap in="SourceGraphic" in2="n" scale="2.6"></feDisplacementMap></filter><path id="ring1" d="M70,70 m-49,0 a49,49 0 1,1 98,0 a49,49 0 1,1 -98,0"></path></defs><g filter="url(#ink1)" fill="none" stroke="#A8402B"><circle cx="70" cy="70" r="64" stroke-width="3.2"></circle><circle cx="70" cy="70" r="58" stroke-width="1.2"></circle><circle cx="70" cy="70" r="40" stroke-width="1.2"></circle><text font-size="10" letter-spacing="6.2" fill="#A8402B" stroke="none" font-family="DM Sans,sans-serif" font-weight="500"><textPath href="#ring1">BANNA LEAF · MENGHAI · </textPath></text><text x="70" y="74.5" text-anchor="middle" font-size="12.5" letter-spacing="1.2" fill="#A8402B" stroke="none" font-family="Cormorant Garamond,Georgia,serif" font-weight="700">SAMPLE</text></g></svg>
+<p style="margin:0;font-size:15px;line-height:1.6;color:#5A4331;max-width:220px;min-height:3.2em;text-wrap:balance">Start with 10 g. That is enough to know.</p>
+</div>
+<div style="display:flex;flex-direction:column;align-items:center;text-align:center;gap:18px">
+<svg class="seal seal-2" style="--tilt:0deg" width="132" height="132" viewBox="0 0 140 140" aria-hidden="true"><defs><filter id="ink2" x="-10%" y="-10%" width="120%" height="120%"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="4" result="n"></feTurbulence><feDisplacementMap in="SourceGraphic" in2="n" scale="2.6"></feDisplacementMap></filter><path id="ring2" d="M70,70 m-49,0 a49,49 0 1,1 98,0 a49,49 0 1,1 -98,0"></path></defs><g filter="url(#ink2)" fill="none" stroke="#A8402B"><circle cx="70" cy="70" r="64" stroke-width="3.2"></circle><circle cx="70" cy="70" r="58" stroke-width="1.2"></circle><circle cx="70" cy="70" r="40" stroke-width="1.2"></circle><text font-size="10" letter-spacing="6.2" fill="#A8402B" stroke="none" font-family="DM Sans,sans-serif" font-weight="500"><textPath href="#ring2">BANNA LEAF · MENGHAI · </textPath></text><text x="70" y="74.5" text-anchor="middle" font-size="12.5" letter-spacing="1.2" fill="#A8402B" stroke="none" font-family="Cormorant Garamond,Georgia,serif" font-weight="700">RETURN</text></g></svg>
+<p style="margin:0;font-size:15px;line-height:1.6;color:#5A4331;max-width:220px;min-height:3.2em;text-wrap:balance">Not for you? Send it back.</p>
+</div>
+<div style="display:flex;flex-direction:column;align-items:center;text-align:center;gap:18px">
+<svg class="seal seal-3" style="--tilt:0deg" width="132" height="132" viewBox="0 0 140 140" aria-hidden="true"><defs><filter id="ink3" x="-10%" y="-10%" width="120%" height="120%"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="5" result="n"></feTurbulence><feDisplacementMap in="SourceGraphic" in2="n" scale="2.6"></feDisplacementMap></filter><path id="ring3" d="M70,70 m-49,0 a49,49 0 1,1 98,0 a49,49 0 1,1 -98,0"></path></defs><g filter="url(#ink3)" fill="none" stroke="#A8402B"><circle cx="70" cy="70" r="64" stroke-width="3.2"></circle><circle cx="70" cy="70" r="58" stroke-width="1.2"></circle><circle cx="70" cy="70" r="40" stroke-width="1.2"></circle><text font-size="10" letter-spacing="6.2" fill="#A8402B" stroke="none" font-family="DM Sans,sans-serif" font-weight="500"><textPath href="#ring3">BANNA LEAF · MENGHAI · </textPath></text><text x="70" y="74.5" text-anchor="middle" font-size="12.5" letter-spacing="1.2" fill="#A8402B" stroke="none" font-family="Cormorant Garamond,Georgia,serif" font-weight="700">ORIGIN</text></g></svg>
+<p style="margin:0;font-size:15px;line-height:1.6;color:#5A4331;max-width:220px;min-height:3.2em;text-wrap:balance">Every tea comes with where it grows.</p>
+</div>
+<div style="display:flex;flex-direction:column;align-items:center;text-align:center;gap:18px">
+<svg class="seal seal-4" style="--tilt:0deg" width="132" height="132" viewBox="0 0 140 140" aria-hidden="true"><defs><filter id="ink4" x="-10%" y="-10%" width="120%" height="120%"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="6" result="n"></feTurbulence><feDisplacementMap in="SourceGraphic" in2="n" scale="2.6"></feDisplacementMap></filter><path id="ring4" d="M70,70 m-49,0 a49,49 0 1,1 98,0 a49,49 0 1,1 -98,0"></path></defs><g filter="url(#ink4)" fill="none" stroke="#A8402B"><circle cx="70" cy="70" r="64" stroke-width="3.2"></circle><circle cx="70" cy="70" r="58" stroke-width="1.2"></circle><circle cx="70" cy="70" r="40" stroke-width="1.2"></circle><text font-size="10" letter-spacing="6.2" fill="#A8402B" stroke="none" font-family="DM Sans,sans-serif" font-weight="500"><textPath href="#ring4">BANNA LEAF · MENGHAI · </textPath></text><text x="70" y="74.5" text-anchor="middle" font-size="12.5" letter-spacing="1.2" fill="#A8402B" stroke="none" font-family="Cormorant Garamond,Georgia,serif" font-weight="700">TRACKED</text></g></svg>
+<p style="margin:0;font-size:15px;line-height:1.6;color:#5A4331;max-width:220px;min-height:3.2em;text-wrap:balance">Delivered worldwide, with a tracking number.</p>
+</div>
+</div>
+</section>
+
+<!-- Hero story -->
+<section class="story">
+<div class="story-pin">
+<div class="story-track">
+<div class="story-panel">
+<img width="1920" height="1072" loading="lazy" decoding="async" class="story-img" src="116c4564.webp" alt="Old tea trees in a misty mountain forest with a stone path and a basket" style="--pos:85% 50%">
+<div class="story-hero">
+<div style="font-size:13px;letter-spacing:0.22em;text-transform:uppercase;color:#6B5443">From leaf to cup</div>
+<h2 style="margin:18px 0 0;font-family:'Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(38px,4.8vw,64px);line-height:1.06;letter-spacing:-0.02em;color:#2F3E34;text-wrap:balance">Follow one leaf from an old mountain tree to your cup.</h2>
+<div style="width:56px;height:1px;background:#8B6B4F;margin:26px 0 0"></div>
+<div style="display:flex;align-items:center;gap:10px;margin-top:30px;font-size:12px;letter-spacing:0.16em;text-transform:uppercase;color:#6B5443"><span class="hint-d">Scroll to begin</span><span class="hint-m">Swipe to begin</span><svg width="22" height="12" viewBox="0 0 22 12" fill="none" stroke="#6B5443" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M1 6h19M15 1l5 5-5 5"></path></svg></div>
+</div>
+</div>
+<div class="story-panel">
+<img width="1920" height="1072" decoding="async" class="story-img" src="ebcdee76.webp" alt="Hands picking one bud and two leaves from a tea branch" style="--pos:80% 50%">
+<div class="story-cap">
+<div style="font-size:12px;letter-spacing:0.2em;text-transform:uppercase;color:#6B5443">02 / 07</div>
+<div style="font-family:'Cormorant Garamond',Georgia,serif;font-size:32px;line-height:1.1;color:#2F3E34;margin:8px 0 10px">One bud, two leaves.</div>
+<div style="font-size:15px;line-height:1.6;color:#5A4331">Picked by hand in spring. Nothing more.</div>
+</div>
+</div>
+<div class="story-panel">
+<img width="1920" height="1044" loading="lazy" decoding="async" class="story-img" src="adc17e9f.webp" alt="Fresh tea leaves withering on round bamboo trays on a wooden rack" style="--pos:70% 50%">
+<div class="story-cap">
+<div style="font-size:12px;letter-spacing:0.2em;text-transform:uppercase;color:#6B5443">03 / 07</div>
+<div style="font-family:'Cormorant Garamond',Georgia,serif;font-size:32px;line-height:1.1;color:#2F3E34;margin:8px 0 10px">Let it rest.</div>
+<div style="font-size:15px;line-height:1.6;color:#5A4331">Fresh leaves wither slowly in the shade.</div>
+</div>
+</div>
+<div class="story-panel">
+<img width="1920" height="1072" loading="lazy" decoding="async" class="story-img" src="510b5880.webp" alt="Hands tossing green tea leaves in a hot iron wok over a clay stove" style="--pos:75% 50%">
+<div class="story-cap">
+<div style="font-size:12px;letter-spacing:0.2em;text-transform:uppercase;color:#6B5443">04 / 07</div>
+<div style="font-family:'Cormorant Garamond',Georgia,serif;font-size:32px;line-height:1.1;color:#2F3E34;margin:8px 0 10px">Fire.</div>
+<div style="font-size:15px;line-height:1.6;color:#5A4331">A quick turn in a hot wok stops the leaf from changing further.</div>
+</div>
+</div>
+<div class="story-panel">
+<img width="1920" height="1072" loading="lazy" decoding="async" class="story-img" src="d886cb20.webp" alt="Hands rolling tea leaves on a board in a sunny courtyard with leaves drying on mats" style="--pos:75% 50%">
+<div class="story-cap">
+<div style="font-size:12px;letter-spacing:0.2em;text-transform:uppercase;color:#6B5443">05 / 07</div>
+<div style="font-family:'Cormorant Garamond',Georgia,serif;font-size:32px;line-height:1.1;color:#2F3E34;margin:8px 0 10px">Roll and sun.</div>
+<div style="font-size:15px;line-height:1.6;color:#5A4331">Rolled by hand, then dried in the sun.</div>
+</div>
+</div>
+<div class="story-panel">
+<img width="1920" height="1033" loading="lazy" decoding="async" class="story-img" src="d509a43a.webp" alt="Steamed tea leaves in a cloth bag pressed under a stone, with wrapped tea cakes beside it" style="--pos:70% 50%">
+<div class="story-cap">
+<div style="font-size:12px;letter-spacing:0.2em;text-transform:uppercase;color:#6B5443">06 / 07</div>
+<div style="font-family:'Cormorant Garamond',Georgia,serif;font-size:32px;line-height:1.1;color:#2F3E34;margin:8px 0 10px">Pressed into a cake.</div>
+<div style="font-size:15px;line-height:1.6;color:#5A4331">Steamed, pressed and wrapped in paper.</div>
+</div>
+</div>
+<div class="story-panel">
+<img width="1920" height="1072" loading="lazy" decoding="async" class="story-img" src="eba8e23d.webp" alt="Aged tea cakes on wooden shelves and a gaiwan with two cups of tea" style="--pos:80% 50%">
+<div class="story-cap">
+<div style="font-size:12px;letter-spacing:0.2em;text-transform:uppercase;color:#6B5443">07 / 07</div>
+<div style="font-family:'Cormorant Garamond',Georgia,serif;font-size:32px;line-height:1.1;color:#2F3E34;margin:8px 0 10px">Time, then your cup.</div>
+<div style="font-size:15px;line-height:1.6;color:#5A4331">Cakes rest for years. Then you brew.</div>
+<div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:18px"><a href="#shop" style="display:inline-flex;align-items:center;min-height:44px;padding:0 24px;background:#2F3E34;color:#F6F1E7;font-size:13px;letter-spacing:0.08em;text-transform:uppercase;border-radius:2px">Shop the Starter Set</a></div>
+</div>
+</div>
+</div>
+<div class="story-bar"><div class="story-nums"><span>01</span><span>02</span><span>03</span><span>04</span><span>05</span><span>06</span><span>07</span></div><div class="story-line"><div class="story-fill"></div></div></div>
+</div>
+</section>
+
+<!-- Story: numbered rows -->
+<section id="about" style="background:#FCFAF6">
+<div style="max-width:1200px;margin:0 auto;padding:112px 32px 40px;box-sizing:border-box;display:flex;flex-direction:column;gap:96px">
+
+<div style="display:flex;flex-wrap:wrap;align-items:center;gap:48px 80px">
+<div class="iw-img" style="flex:1 1 480px;min-width:0;min-height:360px;position:relative;background:transparent;overflow:hidden"><div class="iw-inner" style="position:absolute;top:0;left:0;width:100%;height:100%"><img width="1600" height="1195" loading="lazy" decoding="async" class="iw-col" src="85ac9922.webp" alt="Misty terraced tea hills in Menghai with an old tea tree" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover"><img width="1200" height="896" loading="lazy" decoding="async" class="iw-l1" src="e6946d95.webp" alt="" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover"><img width="1200" height="896" loading="lazy" decoding="async" class="iw-l2" src="2dcaa1ed.webp" alt="" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover"><img width="1200" height="896" loading="lazy" decoding="async" class="iw-l3" src="9a0b99c7.webp" alt="" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover"></div></div>
+<div style="flex:1 1 360px;min-width:0;display:flex;flex-direction:column;gap:16px">
+<div class="iw-t1" style="font-family:'Cormorant Garamond',Georgia,serif;font-size:56px;color:#5A4331;line-height:1">I</div>
+<h2 class="iw-t2" style="margin:0;font-family:'Cormorant Garamond',Georgia,serif;font-weight:500;font-size:34px;letter-spacing:0.04em;text-transform:uppercase;color:#2F3E34">Rooted in Menghai</h2>
+<p class="iw-t3" style="margin:0;font-size:17px;line-height:1.7;color:#5A4837;max-width:420px">We focus on one region, so we can explain it well. Menghai, in southern Yunnan, is known for both raw and ripe pu-erh.</p>
+</div>
+</div>
+
+<div style="display:flex;flex-wrap:wrap-reverse;align-items:center;gap:48px 80px">
+<div style="flex:1 1 360px;min-width:0;display:flex;flex-direction:column;gap:16px">
+<div class="iw-t1" style="font-family:'Cormorant Garamond',Georgia,serif;font-size:56px;color:#5A4331;line-height:1">II</div>
+<h2 class="iw-t2" style="margin:0;font-family:'Cormorant Garamond',Georgia,serif;font-weight:500;font-size:34px;letter-spacing:0.04em;text-transform:uppercase;color:#2F3E34">Chosen by tasting</h2>
+<p class="iw-t3" style="margin:0;font-size:17px;line-height:1.7;color:#5A4837;max-width:420px">Every tea is brewed and tasted before it reaches the shop. If we would not drink it, we do not sell it.</p>
+</div>
+<div class="iw-img" style="flex:1 1 480px;min-width:0;min-height:360px;position:relative;background:transparent;overflow:hidden"><div class="iw-inner" style="position:absolute;top:0;left:0;width:100%;height:100%"><img width="1600" height="1195" loading="lazy" decoding="async" class="iw-col" src="68b6ee97.webp" alt="Hand pouring tea from a gaiwan into small cups on a wooden table" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover"><img width="1200" height="896" loading="lazy" decoding="async" class="iw-l1" src="76b7e2aa.webp" alt="" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover"><img width="1200" height="896" loading="lazy" decoding="async" class="iw-l2" src="6d8b56e3.webp" alt="" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover"><img width="1200" height="896" loading="lazy" decoding="async" class="iw-l3" src="36650629.webp" alt="" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover"></div></div>
+</div>
+
+<div style="display:flex;flex-wrap:wrap;align-items:center;gap:48px 80px">
+<div class="iw-img" style="flex:1 1 480px;min-width:0;min-height:360px;position:relative;background:transparent;overflow:hidden"><div class="iw-inner" style="position:absolute;top:0;left:0;width:100%;height:100%"><img width="1600" height="1195" loading="lazy" decoding="async" class="iw-col" src="b93802d7.webp" alt="Brewing card with simple icons beside a white gaiwan and loose leaves" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover"><img width="1200" height="896" loading="lazy" decoding="async" class="iw-l1" src="d68fad68.webp" alt="" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover"><img width="1200" height="896" loading="lazy" decoding="async" class="iw-l2" src="e4c5dce4.webp" alt="" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover"><img width="1200" height="896" loading="lazy" decoding="async" class="iw-l3" src="9c2c4071.webp" alt="" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover"></div></div>
+<div style="flex:1 1 360px;min-width:0;display:flex;flex-direction:column;gap:16px">
+<div class="iw-t1" style="font-family:'Cormorant Garamond',Georgia,serif;font-size:56px;color:#5A4331;line-height:1">III</div>
+<h2 class="iw-t2" style="margin:0;font-family:'Cormorant Garamond',Georgia,serif;font-weight:500;font-size:34px;letter-spacing:0.04em;text-transform:uppercase;color:#2F3E34">Explained simply</h2>
+<p class="iw-t3" style="margin:0;font-size:17px;line-height:1.7;color:#5A4837;max-width:420px">No jargon. Each tea comes with brewing times and plain taste notes.</p>
+</div>
+</div>
+
+</div>
+</section>
+
+<!-- Which one is for you -->
+<section id="guide" style="background:#EFE7D8">
+<div style="max-width:1200px;margin:0 auto;padding:104px 32px;box-sizing:border-box">
+<div style="text-align:center;margin-bottom:56px">
+<div style="font-size:13px;letter-spacing:0.22em;text-transform:uppercase;color:#6B5443;margin-bottom:16px">Menghai Guide</div>
+<h2 style="margin:0;font-family:'Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(36px,4.4vw,52px);color:#2F3E34">Which pu-erh is for you?</h2>
+</div>
+<div style="display:flex;flex-wrap:wrap;gap:24px">
+<div style="flex:1 1 400px;min-width:0;background:#FCFAF6;padding:48px 40px;box-sizing:border-box;display:flex;flex-direction:column;gap:16px">
+<div style="font-size:13px;letter-spacing:0.18em;text-transform:uppercase;color:#6B5443">Sheng</div>
+<h3 style="margin:0;font-family:'Cormorant Garamond',Georgia,serif;font-weight:500;font-size:38px;color:#2F3E34">Raw</h3>
+<p style="margin:0;font-size:17px;line-height:1.7;color:#5A4837">Fresh, floral, a little bright. Changes with age. Good if you enjoy green tea or oolong.</p>
+<a href="#" data-open="raw" style="margin-top:8px;font-size:14px;letter-spacing:0.08em;text-transform:uppercase;color:#2F3E34;border-bottom:1px solid #2F3E34;align-self:flex-start;padding-bottom:4px">Explore raw pu-erh</a>
+</div>
+<div style="flex:1 1 400px;min-width:0;background:#FCFAF6;padding:48px 40px;box-sizing:border-box;display:flex;flex-direction:column;gap:16px">
+<div style="font-size:13px;letter-spacing:0.18em;text-transform:uppercase;color:#6B5443">Shu</div>
+<h3 style="margin:0;font-family:'Cormorant Garamond',Georgia,serif;font-weight:500;font-size:38px;color:#2F3E34">Ripe</h3>
+<p style="margin:0;font-size:17px;line-height:1.7;color:#5A4837">Deep, smooth and earthy. Easy to enjoy from the first cup. Good if you enjoy black tea or coffee.</p>
+<a href="#" data-open="ripe" style="margin-top:8px;font-size:14px;letter-spacing:0.08em;text-transform:uppercase;color:#2F3E34;border-bottom:1px solid #2F3E34;align-self:flex-start;padding-bottom:4px">Explore ripe pu-erh</a>
+</div>
+</div>
+<div style="text-align:center;margin-top:48px">
+<a href="#" style="display:inline-flex;align-items:center;min-height:48px;padding:0 32px;background:#2F3E34;color:#F6F1E7;font-size:14px;letter-spacing:0.08em;text-transform:uppercase;border-radius:2px">Read the full guide</a>
+</div>
+</div>
+</section>
+
+<!-- Starter set band -->
+<section id="starter" style="background:#232F27;color:#F6F1E7">
+<div style="max-width:1280px;margin:0 auto;display:flex;flex-wrap:wrap;align-items:stretch;box-sizing:border-box">
+<div style="flex:1 1 440px;min-width:0;padding:clamp(56px,8vw,96px) clamp(32px,5vw,64px) clamp(56px,8vw,96px) 32px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;gap:24px">
+<h2 style="margin:0;font-family:'Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(36px,4.4vw,52px);line-height:1.08;letter-spacing:0.02em;text-transform:uppercase;color:#F6F1E7">Not sure<br>where to start?</h2>
+<p style="margin:0;font-size:17px;line-height:1.7;color:#DDD3BE;max-width:420px">With the Starter Set, you taste one tea a day for a week and write down what you notice. By the end you will know which pu-erh is yours.</p>
+<a href="#" data-open="set" style="display:inline-flex;align-items:center;align-self:flex-start;min-height:48px;padding:0 32px;border:1px solid #B9A98B;color:#F6F1E7;font-size:14px;letter-spacing:0.08em;text-transform:uppercase;border-radius:2px">Discover the set</a>
+</div>
+<div style="flex:1 1 440px;min-width:0;min-height:460px;position:relative;background:#5C4636;overflow:hidden"><img width="1200" height="1607" loading="lazy" decoding="async" src="92ce1c06.webp" alt="A quiet tea corner by a window with a cup, a plant and a notebook" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover"></div>
+</div>
+</section>
+
+<!-- Subscription -->
+<section id="club" style="background:#F6F1E7;border-top:1px solid #E6DCC9;border-bottom:1px solid #E6DCC9">
+<div style="max-width:1000px;margin:0 auto;padding:88px 32px;box-sizing:border-box;display:flex;flex-wrap:wrap;align-items:center;gap:40px 80px">
+<div style="flex:1 1 420px;min-width:0;display:flex;flex-direction:column;gap:16px">
+<div style="font-size:13px;letter-spacing:0.22em;text-transform:uppercase;color:#6B5443">Subscription</div>
+<h2 style="margin:0;font-family:'Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(32px,3.6vw,44px);line-height:1.12;color:#2F3E34">The Menghai Sample Club</h2>
+<p style="margin:0;font-size:17px;line-height:1.7;color:#5A4837;max-width:440px">Every month, new Menghai pu-erh to taste, with a card telling you what you are drinking and how to brew it.</p>
+</div>
+<div style="flex:1 1 280px;min-width:0;background:#FCFAF6;padding:32px;box-sizing:border-box;display:flex;flex-direction:column;gap:14px">
+<div style="font-family:'Cormorant Garamond',Georgia,serif;font-size:40px;color:#2F3E34;line-height:1">€19 <span style="font-size:20px;color:#6B5443">/ month</span></div>
+<div style="font-size:15px;color:#5A4837;padding-top:14px;border-top:1px solid #E6DCC9">4 small samples in every box</div>
+<div style="font-size:15px;color:#5A4837;padding-top:14px;border-top:1px solid #E6DCC9">Skip or cancel any time</div>
+<a href="#" data-open="call" style="margin-top:12px;display:inline-flex;align-items:center;justify-content:center;min-height:48px;background:#2F3E34;color:#F6F1E7;font-size:14px;letter-spacing:0.08em;text-transform:uppercase;border-radius:2px">Join the club</a>
+</div>
+</div>
+</section>
+
+<!-- Reviews -->
+<!-- SAMPLE REVIEWS: written for the design only. Replace with real customer reviews before launch. -->
+<section style="background:#2F3E34;color:#F6F1E7">
+<div style="max-width:1280px;margin:0 auto;padding:96px clamp(16px,4vw,32px) 72px;box-sizing:border-box">
+<div style="text-align:center;display:flex;flex-direction:column;align-items:center;gap:12px;margin-bottom:16px">
+<div style="font-size:13px;letter-spacing:0.22em;text-transform:uppercase;color:#B9A98B">Reviews</div>
+<h2 style="margin:0;font-family:'Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(36px,4.4vw,52px);color:#F6F1E7">Kind words</h2>
+</div>
+<div class="rv-stage" id="rv-stage">
+<div class="rv-drum" id="rv-drum" style="transform:rotateX(0deg);transition:transform 1.1s cubic-bezier(.65,0,.35,1)">
+<div class="rv-card" style="--i:0">
+<div style="display:flex;gap:4px"><svg width="16" height="16" viewBox="0 0 24 24" fill="#B8864B"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.6 7-6.2-3.7-6.2 3.7 1.6-7L2 9.2l7.1-.6z"></path></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="#B8864B"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.6 7-6.2-3.7-6.2 3.7 1.6-7L2 9.2l7.1-.6z"></path></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="#B8864B"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.6 7-6.2-3.7-6.2 3.7 1.6-7L2 9.2l7.1-.6z"></path></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="#B8864B"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.6 7-6.2-3.7-6.2 3.7 1.6-7L2 9.2l7.1-.6z"></path></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="#B8864B"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.6 7-6.2-3.7-6.2 3.7 1.6-7L2 9.2l7.1-.6z"></path></svg></div>
+<div style="font-family:'Cormorant Garamond',Georgia,serif;font-size:clamp(19px,2.3vw,24px);line-height:1.35;color:#2F3E34">I had never tried pu-erh. The Starter Set made it easy: one tea a day, and by Friday I knew which one was mine.</div>
+<div style="font-size:12px;letter-spacing:0.16em;text-transform:uppercase;color:#6B5443">Anna &nbsp;·&nbsp; Starter Set</div>
+</div>
+<div class="rv-card" style="--i:1">
+<div style="display:flex;gap:4px"><svg width="16" height="16" viewBox="0 0 24 24" fill="#B8864B"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.6 7-6.2-3.7-6.2 3.7 1.6-7L2 9.2l7.1-.6z"></path></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="#B8864B"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.6 7-6.2-3.7-6.2 3.7 1.6-7L2 9.2l7.1-.6z"></path></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="#B8864B"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.6 7-6.2-3.7-6.2 3.7 1.6-7L2 9.2l7.1-.6z"></path></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="#B8864B"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.6 7-6.2-3.7-6.2 3.7 1.6-7L2 9.2l7.1-.6z"></path></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="#B8864B"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.6 7-6.2-3.7-6.2 3.7 1.6-7L2 9.2l7.1-.6z"></path></svg></div>
+<div style="font-family:'Cormorant Garamond',Georgia,serif;font-size:clamp(19px,2.3vw,24px);line-height:1.35;color:#2F3E34">Smooth and earthy, and it keeps giving through many infusions. It is my evening tea now.</div>
+<div style="font-size:12px;letter-spacing:0.16em;text-transform:uppercase;color:#6B5443">Daniel &nbsp;·&nbsp; Ripe Pu-erh</div>
+</div>
+<div class="rv-card" style="--i:2">
+<div style="display:flex;gap:4px"><svg width="16" height="16" viewBox="0 0 24 24" fill="#B8864B"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.6 7-6.2-3.7-6.2 3.7 1.6-7L2 9.2l7.1-.6z"></path></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="#B8864B"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.6 7-6.2-3.7-6.2 3.7 1.6-7L2 9.2l7.1-.6z"></path></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="#B8864B"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.6 7-6.2-3.7-6.2 3.7 1.6-7L2 9.2l7.1-.6z"></path></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="#B8864B"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.6 7-6.2-3.7-6.2 3.7 1.6-7L2 9.2l7.1-.6z"></path></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="#B8864B"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.6 7-6.2-3.7-6.2 3.7 1.6-7L2 9.2l7.1-.6z"></path></svg></div>
+<div style="font-family:'Cormorant Garamond',Georgia,serif;font-size:clamp(19px,2.3vw,24px);line-height:1.35;color:#2F3E34">Fresh and a little floral. The brewing card was clear, even without a gaiwan.</div>
+<div style="font-size:12px;letter-spacing:0.16em;text-transform:uppercase;color:#6B5443">Marta &nbsp;·&nbsp; Raw Pu-erh</div>
+</div>
+<div class="rv-card" style="--i:3">
+<div style="display:flex;gap:4px"><svg width="16" height="16" viewBox="0 0 24 24" fill="#B8864B"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.6 7-6.2-3.7-6.2 3.7 1.6-7L2 9.2l7.1-.6z"></path></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="#B8864B"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.6 7-6.2-3.7-6.2 3.7 1.6-7L2 9.2l7.1-.6z"></path></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="#B8864B"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.6 7-6.2-3.7-6.2 3.7 1.6-7L2 9.2l7.1-.6z"></path></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="#B8864B"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.6 7-6.2-3.7-6.2 3.7 1.6-7L2 9.2l7.1-.6z"></path></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="#B8864B"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.6 7-6.2-3.7-6.2 3.7 1.6-7L2 9.2l7.1-.6z"></path></svg></div>
+<div style="font-family:'Cormorant Garamond',Georgia,serif;font-size:clamp(19px,2.3vw,24px);line-height:1.35;color:#2F3E34">It arrived in a few days, wrapped like a gift. Everything I wanted to know was on the card.</div>
+<div style="font-size:12px;letter-spacing:0.16em;text-transform:uppercase;color:#6B5443">Lukas &nbsp;·&nbsp; Gift Set</div>
+</div>
+<div class="rv-card" style="--i:4">
+<div style="display:flex;gap:4px"><svg width="16" height="16" viewBox="0 0 24 24" fill="#B8864B"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.6 7-6.2-3.7-6.2 3.7 1.6-7L2 9.2l7.1-.6z"></path></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="#B8864B"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.6 7-6.2-3.7-6.2 3.7 1.6-7L2 9.2l7.1-.6z"></path></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="#B8864B"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.6 7-6.2-3.7-6.2 3.7 1.6-7L2 9.2l7.1-.6z"></path></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="#B8864B"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.6 7-6.2-3.7-6.2 3.7 1.6-7L2 9.2l7.1-.6z"></path></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="#B8864B"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.6 7-6.2-3.7-6.2 3.7 1.6-7L2 9.2l7.1-.6z"></path></svg></div>
+<div style="font-family:'Cormorant Garamond',Georgia,serif;font-size:clamp(19px,2.3vw,24px);line-height:1.35;color:#2F3E34">The gaiwan set is beautiful and feels solid. It pours cleanly, with no drips.</div>
+<div style="font-size:12px;letter-spacing:0.16em;text-transform:uppercase;color:#6B5443">Elena &nbsp;·&nbsp; Teaware</div>
+</div>
+<div class="rv-card" style="--i:5">
+<div style="display:flex;gap:4px"><svg width="16" height="16" viewBox="0 0 24 24" fill="#B8864B"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.6 7-6.2-3.7-6.2 3.7 1.6-7L2 9.2l7.1-.6z"></path></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="#B8864B"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.6 7-6.2-3.7-6.2 3.7 1.6-7L2 9.2l7.1-.6z"></path></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="#B8864B"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.6 7-6.2-3.7-6.2 3.7 1.6-7L2 9.2l7.1-.6z"></path></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="#B8864B"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.6 7-6.2-3.7-6.2 3.7 1.6-7L2 9.2l7.1-.6z"></path></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="#B8864B"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.6 7-6.2-3.7-6.2 3.7 1.6-7L2 9.2l7.1-.6z"></path></svg></div>
+<div style="font-family:'Cormorant Garamond',Georgia,serif;font-size:clamp(19px,2.3vw,24px);line-height:1.35;color:#2F3E34">I joined the club for the surprise. Each box teaches me something new about Menghai.</div>
+<div style="font-size:12px;letter-spacing:0.16em;text-transform:uppercase;color:#6B5443">Tomas &nbsp;·&nbsp; Sample Club</div>
+</div>
+</div>
+</div>
+<div style="display:flex;align-items:center;justify-content:center;gap:18px;margin-top:8px">
+<button type="button" data-rv="prev" aria-label="Previous review" style="display:flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:50%;border:1px solid rgba(246,241,231,0.5);background:transparent;cursor:pointer;padding:0"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#F6F1E7" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 15l6-6 6 6"></path></svg></button>
+<div style="display:flex;align-items:center;gap:12px">
+<button type="button" data-rv-dot="0" aria-label="Review 1" style="width:10px;height:10px;border-radius:50%;border:1px solid #B9A98B;padding:0;cursor:pointer;background:#F6F1E7"></button><button type="button" data-rv-dot="1" aria-label="Review 2" style="width:10px;height:10px;border-radius:50%;border:1px solid #B9A98B;padding:0;cursor:pointer;background:transparent"></button><button type="button" data-rv-dot="2" aria-label="Review 3" style="width:10px;height:10px;border-radius:50%;border:1px solid #B9A98B;padding:0;cursor:pointer;background:transparent"></button><button type="button" data-rv-dot="3" aria-label="Review 4" style="width:10px;height:10px;border-radius:50%;border:1px solid #B9A98B;padding:0;cursor:pointer;background:transparent"></button><button type="button" data-rv-dot="4" aria-label="Review 5" style="width:10px;height:10px;border-radius:50%;border:1px solid #B9A98B;padding:0;cursor:pointer;background:transparent"></button><button type="button" data-rv-dot="5" aria-label="Review 6" style="width:10px;height:10px;border-radius:50%;border:1px solid #B9A98B;padding:0;cursor:pointer;background:transparent"></button>
+</div>
+<button type="button" data-rv="next" aria-label="Next review" style="display:flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:50%;border:1px solid rgba(246,241,231,0.5);background:transparent;cursor:pointer;padding:0"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#F6F1E7" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"></path></svg></button>
+</div>
+</div>
+</section>
+
+<!-- Newsletter -->
+<section style="background:#EFE7D8">
+<div style="max-width:720px;margin:0 auto;padding:88px 32px;box-sizing:border-box;text-align:center;display:flex;flex-direction:column;gap:20px;align-items:center">
+<h2 style="margin:0;font-family:'Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(32px,3.5vw,42px);line-height:1.15;color:#2F3E34">Get our free beginner's guide to pu-erh</h2>
+<p style="margin:0;font-size:16px;line-height:1.65;color:#5A4837">A short PDF on how to store your tea, how to read a label, and what to try second.</p>
+<div style="display:flex;flex-wrap:wrap;gap:12px;justify-content:center;width:100%;margin-top:8px">
+<label for="email" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">Your email</label>
+<input id="email" type="email" placeholder="Your email" style="flex:1 1 260px;min-width:0;min-height:48px;padding:0 16px;box-sizing:border-box;border:1px solid #B9A98B;background:#FCFAF6;font-size:16px;font-family:'DM Sans',system-ui,sans-serif;color:#3B2D22;border-radius:2px">
+<button type="button" style="min-height:48px;padding:0 28px;border:0;background:#2F3E34;color:#F6F1E7;font-size:14px;letter-spacing:0.08em;text-transform:uppercase;font-family:'DM Sans',system-ui,sans-serif;border-radius:2px;cursor:pointer">Send me the guide</button>
+</div>
+<div style="font-size:13px;color:#6B5443">One email a week at most. Unsubscribe any time.</div>
+</div>
+</section>
+
+<!-- Footer -->
+<footer style="position:relative;background:#FCF5E3;border-top:1px solid #E6DCC9;overflow:clip">
+<div style="position:relative;z-index:2;max-width:1440px;margin:0 auto;padding:clamp(64px,9vw,120px) clamp(20px,4vw,56px) 0;box-sizing:border-box">
+<div class="px-word" style="font-family:'Cormorant Garamond',Georgia,serif;font-weight:500;font-size:clamp(72px,21vw,340px);line-height:0.9;letter-spacing:-0.01em;color:#2F3E34;text-align:center;white-space:nowrap">Banna Leaf</div>
+<div style="margin-top:clamp(28px,4vw,56px);display:flex;flex-direction:column;gap:14px">
+<div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:10px 32px;font-size:14px;line-height:1.5;color:#6B5443">
+<div style="display:flex;flex-wrap:wrap;gap:6px 24px"><a href="mailto:bannaleaf@gmail.com" style="color:#5A4331">bannaleaf@gmail.com</a><a href="tel:+436600000000" style="color:#5A4331">+43 660 000 0000</a><a href="#" data-open="call" style="color:#5A4331;text-decoration:underline">Request a call</a></div>
+<div style="display:flex;flex-wrap:wrap;gap:6px 28px"><a href="#" data-open="ship" style="color:#5A4331">Shipping &amp; Returns</a><a href="#" data-open="faq" style="color:#5A4331">FAQ</a><a href="https://instagram.com/bannaleaf" target="_blank" rel="noopener noreferrer" style="color:#5A4331">Instagram</a></div>
+</div>
+<div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:10px 32px;font-size:14px;line-height:1.5;color:#6B5443">
+<div>© Banna Leaf</div>
+<div style="display:flex;flex-wrap:wrap;gap:6px 28px"><a href="#" data-open="priv" style="color:#6B5443">Privacy Policy</a><a href="#" data-open="terms" style="color:#6B5443">Terms</a><a href="#" data-open="imp" style="color:#6B5443">Imprint</a><a href="#" data-open="cook" style="color:#6B5443">Cookie settings</a></div>
+</div>
+</div>
+</div>
+<div class="px-strip" style="position:relative;overflow:hidden;aspect-ratio:16/7.6;min-height:240px;margin-top:clamp(8px,2vw,32px)">
+<img width="2000" height="1116" loading="lazy" decoding="async" src="60639ef8.webp" alt="" class="px-img" style="position:absolute;left:0;bottom:0;width:100%;height:120%;object-fit:cover;object-position:50% 100%;will-change:transform">
+<div style="position:absolute;top:0;left:0;width:100%;height:100%;background:linear-gradient(180deg,#FCF5E3 0%,rgba(252,245,227,0) 30%)"></div>
+</div>
+</footer>
+
+<!-- Pop-up windows -->
+<div data-if="mAny" class="md-back" data-d="flex" data-close="1" style="word-spacing:-0.08em;position:fixed;top:0;left:0;width:100%;height:100%;z-index:1000;background:rgba(35,47,39,0.55);display:flex;align-items:center;justify-content:center;padding:20px;box-sizing:border-box">
+<div data-if="mCall" class="md-panel" data-d="flex" style="position:relative;display:flex;flex-wrap:wrap;background:#FCFAF6;border:1px solid #E6DCC9;box-shadow:0 30px 80px rgba(35,47,39,0.35);width:min(920px,100%);max-height:92vh;overflow:auto;color:#3B2D22"><a href="#" class="md-x" aria-label="Close" data-close="1" style="position:absolute;top:12px;right:12px;width:44px;height:44px;display:flex;align-items:center;justify-content:center;z-index:2"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2F3E34" stroke-width="1.6" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"></path></svg></a>
+<div style="flex:1 1 280px;min-height:220px;position:relative;background:#CDBBA2"><img width="1200" height="1607" loading="lazy" decoding="async" src="92ce1c06.webp" alt="A quiet tea corner by a window with a cup, a plant and a notebook" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover"></div>
+<div style="flex:1 1 400px;min-width:0;padding:clamp(28px,4vw,48px);box-sizing:border-box">
+<div data-if="showForm" data-d="flex" style="display:flex;flex-direction:column;gap:14px">
+<div style="font-size:13px;letter-spacing:0.12em;text-transform:uppercase;color:#6B5443">Request a call</div>
+<h2 style="margin:0 0 6px;font-family:'Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(32px,4vw,42px);line-height:1.1;color:#2F3E34;margin:0">Let’s talk tea</h2>
+<p style="margin:0;font-size:16px;line-height:1.65;color:#4A3B2E">Leave your name and a way to reach you, and we will get back to you.</p>
+<div data-if="cartHas" data-d="block" style="padding:12px 14px;background:#F1E8D6;font-size:14px;line-height:1.5;color:#4A3B2E">Your list: <span id="md-cart-summary"></span></div>
+<label for="md-name" style="font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:#6B5443;margin-top:6px">Your name</label>
+<input id="md-name" type="text" autocomplete="name" style="width:100%;box-sizing:border-box;padding:14px 16px;border:1px solid #CDBBA2;background:#FFFFFF;font-family:'DM Sans',system-ui,sans-serif;font-size:16px;color:#3B2D22;border-radius:2px">
+<label for="md-contact" style="font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:#6B5443">Phone or email</label>
+<input id="md-contact" type="text" autocomplete="tel" style="width:100%;box-sizing:border-box;padding:14px 16px;border:1px solid #CDBBA2;background:#FFFFFF;font-family:'DM Sans',system-ui,sans-serif;font-size:16px;color:#3B2D22;border-radius:2px">
+<label style="display:flex;gap:10px;align-items:flex-start;font-size:13px;line-height:1.5;color:#5A4837;margin-top:4px"><input id="md-agree" type="checkbox" style="margin-top:3px"><span>I agree that my name and contact are used to get in touch with me. <a href="#" data-open="priv" style="color:#2F3E34;text-decoration:underline">Privacy Policy</a></span></label>
+<div data-if="showErr" data-d="block" style="font-size:13px;line-height:1.5;color:#A8402B">Please add your name, a phone number or email, and tick the box.</div>
+<button type="button" data-submit="1" style="margin-top:6px;min-height:48px;border:0;background:#2F3E34;color:#F6F1E7;font-family:'DM Sans',system-ui,sans-serif;font-size:14px;letter-spacing:0.06em;text-transform:uppercase;border-radius:2px;cursor:pointer">Request a call</button>
+<div style="font-size:13px;line-height:1.5;color:#6B5443">We use your details only to get in touch with you.</div>
+</div>
+<div data-if="showThanks" data-d="flex" style="display:flex;flex-direction:column;gap:14px;justify-content:center;min-height:260px">
+<div style="font-size:13px;letter-spacing:0.12em;text-transform:uppercase;color:#6B5443">Request received</div>
+<h2 style="margin:0 0 6px;font-family:'Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(32px,4vw,42px);line-height:1.1;color:#2F3E34;margin:0">Thank you, <span id="md-thanks-name"></span>.</h2>
+<p style="margin:0;font-size:16px;line-height:1.65;color:#4A3B2E">We have your details and will get in touch soon.</p>
+<div id="md-thanks-note" style="font-size:13px;line-height:1.5;color:#6B5443"></div>
+</div>
+</div>
+</div>
+<div data-if="mShip" class="md-panel" data-d="block" style="position:relative;background:#FCFAF6;border:1px solid #E6DCC9;box-shadow:0 30px 80px rgba(35,47,39,0.35);width:min(680px,100%);max-height:88vh;overflow:auto;padding:clamp(28px,4vw,44px);box-sizing:border-box;color:#3B2D22"><a href="#" class="md-x" aria-label="Close" data-close="1" style="position:absolute;top:12px;right:12px;width:44px;height:44px;display:flex;align-items:center;justify-content:center;z-index:2"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2F3E34" stroke-width="1.6" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"></path></svg></a><h2 style="margin:0 0 6px;font-family:'Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(32px,4vw,42px);line-height:1.1;color:#2F3E34">Shipping &amp; Returns</h2>
+<h3 style="margin:26px 0 8px;font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:#6B5443;font-weight:500">Orders</h3><p style="margin:0 0 14px;font-size:15.5px;line-height:1.7;color:#4A3B2E">Orders are made by request. Add what you like to your cart and send us your list. We will get back to you to confirm availability, the price and how your tea will reach you. No payment is taken on this website.</p><h3 style="margin:26px 0 8px;font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:#6B5443;font-weight:500">Questions before you order</h3><p style="margin:0 0 14px;font-size:15.5px;line-height:1.7;color:#4A3B2E">Use “Request a call” or write to <a href="mailto:bannaleaf@gmail.com" style="color:#2F3E34;text-decoration:underline">bannaleaf@gmail.com</a>. We will answer personally. Anything we agree is confirmed with you before it goes ahead.</p><h3 style="margin:26px 0 8px;font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:#6B5443;font-weight:500">Delivery</h3><p style="margin:0 0 14px;font-size:15.5px;line-height:1.7;color:#4A3B2E">Where we can send, how it is tracked and when it will arrive are confirmed with you personally before anything is sent.</p><h3 style="margin:26px 0 8px;font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:#6B5443;font-weight:500">Returns</h3><p style="margin:0 0 14px;font-size:15.5px;line-height:1.7;color:#4A3B2E">If something is not right, tell us and we will find a fair solution together.</p></div>
+<div data-if="mFaq" class="md-panel" data-d="block" style="position:relative;background:#FCFAF6;border:1px solid #E6DCC9;box-shadow:0 30px 80px rgba(35,47,39,0.35);width:min(680px,100%);max-height:88vh;overflow:auto;padding:clamp(28px,4vw,44px);box-sizing:border-box;color:#3B2D22"><a href="#" class="md-x" aria-label="Close" data-close="1" style="position:absolute;top:12px;right:12px;width:44px;height:44px;display:flex;align-items:center;justify-content:center;z-index:2"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2F3E34" stroke-width="1.6" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"></path></svg></a><h2 style="margin:0 0 6px;font-family:'Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(32px,4vw,42px);line-height:1.1;color:#2F3E34">FAQ</h2>
+<div style="margin:20px 0 4px;font-size:16px;font-weight:500;color:#2F3E34">How do I order?</div><p style="margin:0 0 14px;font-size:15.5px;line-height:1.7;color:#4A3B2E">Add what you like to your cart and send your list with “Send my request”. We will get back to you to confirm availability, the price and delivery. No payment is taken on this website.</p><div style="margin:20px 0 4px;font-size:16px;font-weight:500;color:#2F3E34">Do you ship worldwide?</div><p style="margin:0 0 14px;font-size:15.5px;line-height:1.7;color:#4A3B2E">Yes. Where we can send and how it is tracked are confirmed with you personally when we answer your request.</p><div style="margin:20px 0 4px;font-size:16px;font-weight:500;color:#2F3E34">What is pu-erh?</div><p style="margin:0 0 14px;font-size:15.5px;line-height:1.7;color:#4A3B2E">A tea from Yunnan, China, that is pressed into cakes and can be aged. Raw (sheng) is fresher and more floral. Ripe (shu) is darker, smoother and earthier.</p><div style="margin:20px 0 4px;font-size:16px;font-weight:500;color:#2F3E34">Raw or ripe: which first?</div><p style="margin:0 0 14px;font-size:15.5px;line-height:1.7;color:#4A3B2E">Many people find ripe easier at the start, and raw brighter and livelier. The “Which pu-erh is for you?” section on the home page can help you choose.</p><div style="margin:20px 0 4px;font-size:16px;font-weight:500;color:#2F3E34">How do I brew it without a gaiwan?</div><p style="margin:0 0 14px;font-size:15.5px;line-height:1.7;color:#4A3B2E">A mug with a strainer works. Rinse the leaves quickly with hot water, then steep for short times, around 10 to 30 seconds, and lengthen slowly with each pour.</p><div style="margin:20px 0 4px;font-size:16px;font-weight:500;color:#2F3E34">How can I reach you?</div><p style="margin:0 0 14px;font-size:15.5px;line-height:1.7;color:#4A3B2E">Write to <a href="mailto:bannaleaf@gmail.com" style="color:#2F3E34;text-decoration:underline">bannaleaf@gmail.com</a>, send a message on Instagram (@bannaleaf), or leave your details with “Request a call”.</p><div style="margin:20px 0 4px;font-size:16px;font-weight:500;color:#2F3E34">What happens to my details?</div><p style="margin:0 0 14px;font-size:15.5px;line-height:1.7;color:#4A3B2E">Only what you type into the call form, and only to get in touch with you. See the Privacy Policy for the details.</p></div>
+<div data-if="mPriv" class="md-panel" data-d="block" style="position:relative;background:#FCFAF6;border:1px solid #E6DCC9;box-shadow:0 30px 80px rgba(35,47,39,0.35);width:min(680px,100%);max-height:88vh;overflow:auto;padding:clamp(28px,4vw,44px);box-sizing:border-box;color:#3B2D22"><a href="#" class="md-x" aria-label="Close" data-close="1" style="position:absolute;top:12px;right:12px;width:44px;height:44px;display:flex;align-items:center;justify-content:center;z-index:2"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2F3E34" stroke-width="1.6" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"></path></svg></a><h2 style="margin:0 0 6px;font-family:'Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(32px,4vw,42px);line-height:1.1;color:#2F3E34">Privacy Policy</h2>
+<h3 style="margin:26px 0 8px;font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:#6B5443;font-weight:500">Who is responsible</h3><p style="margin:0 0 14px;font-size:15.5px;line-height:1.7;color:#4A3B2E">[Full name], [Street and number], [Postal code and city], Austria. Email: <a href="mailto:bannaleaf@gmail.com" style="color:#2F3E34;text-decoration:underline">bannaleaf@gmail.com</a>.</p><h3 style="margin:26px 0 8px;font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:#6B5443;font-weight:500">What we collect</h3><p style="margin:0 0 14px;font-size:15.5px;line-height:1.7;color:#4A3B2E">Only what you send us. If you use “Request a call”, that is your name and the phone number or email you enter. This site has no accounts, no analytics and no advertising.</p><h3 style="margin:26px 0 8px;font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:#6B5443;font-weight:500">Why, and on what basis</h3><p style="margin:0 0 14px;font-size:15.5px;line-height:1.7;color:#4A3B2E">To get in touch with you about your request. The basis is your consent (Art. 6(1)(a) GDPR), which you can withdraw at any time.</p><h3 style="margin:26px 0 8px;font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:#6B5443;font-weight:500">Who sees it, and for how long</h3><p style="margin:0 0 14px;font-size:15.5px;line-height:1.7;color:#4A3B2E">Only the site owner. We delete your details once your request is dealt with, and at the latest after [3 months].</p><h3 style="margin:26px 0 8px;font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:#6B5443;font-weight:500">Fonts</h3><p style="margin:0 0 14px;font-size:15.5px;line-height:1.7;color:#4A3B2E">The page loads its typefaces from Google Fonts. When you open the page, your browser contacts Google and your IP address is transmitted to Google. [Remove this section if the fonts are stored on this site.]</p><h3 style="margin:26px 0 8px;font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:#6B5443;font-weight:500">External links</h3><p style="margin:0 0 14px;font-size:15.5px;line-height:1.7;color:#4A3B2E">The Instagram link takes you to Instagram, which has its own privacy policy.</p><h3 style="margin:26px 0 8px;font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:#6B5443;font-weight:500">Your rights</h3><p style="margin:0 0 14px;font-size:15.5px;line-height:1.7;color:#4A3B2E">You can ask for access, correction, deletion or restriction of your data, and you can object to its use (GDPR Articles 15 to 21). Write to <a href="mailto:bannaleaf@gmail.com" style="color:#2F3E34;text-decoration:underline">bannaleaf@gmail.com</a>. You can also complain to the Austrian Data Protection Authority (Datenschutzbehörde, dsb.gv.at).</p><!-- DRAFT: replace the [brackets] with real details and have the legal text checked before the site goes live --></div>
+<div data-if="mTerms" class="md-panel" data-d="block" style="position:relative;background:#FCFAF6;border:1px solid #E6DCC9;box-shadow:0 30px 80px rgba(35,47,39,0.35);width:min(680px,100%);max-height:88vh;overflow:auto;padding:clamp(28px,4vw,44px);box-sizing:border-box;color:#3B2D22"><a href="#" class="md-x" aria-label="Close" data-close="1" style="position:absolute;top:12px;right:12px;width:44px;height:44px;display:flex;align-items:center;justify-content:center;z-index:2"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2F3E34" stroke-width="1.6" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"></path></svg></a><h2 style="margin:0 0 6px;font-family:'Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(32px,4vw,42px);line-height:1.1;color:#2F3E34">Terms of Use</h2>
+<h3 style="margin:26px 0 8px;font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:#6B5443;font-weight:500">1. About this site</h3><p style="margin:0 0 14px;font-size:15.5px;line-height:1.7;color:#4A3B2E">Banna Leaf presents pu-erh tea and how to enjoy it. Information on this site is for general interest and is not a binding offer.</p><h3 style="margin:26px 0 8px;font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:#6B5443;font-weight:500">2. Information</h3><p style="margin:0 0 14px;font-size:15.5px;line-height:1.7;color:#4A3B2E">Texts about tea and brewing are general and for personal interest. They are not medical or health advice.</p><h3 style="margin:26px 0 8px;font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:#6B5443;font-weight:500">3. Products and prices</h3><p style="margin:0 0 14px;font-size:15.5px;line-height:1.7;color:#4A3B2E">Products, prices and subscriptions shown on this site are indicative. Availability, prices and delivery are confirmed individually before anything is agreed.</p><h3 style="margin:26px 0 8px;font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:#6B5443;font-weight:500">4. Content</h3><p style="margin:0 0 14px;font-size:15.5px;line-height:1.7;color:#4A3B2E">Texts, layout and illustrations belong to the site owner. The illustrations were created with the help of AI image tools. Please ask before you copy or reuse anything.</p><h3 style="margin:26px 0 8px;font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:#6B5443;font-weight:500">5. Links</h3><p style="margin:0 0 14px;font-size:15.5px;line-height:1.7;color:#4A3B2E">We do not control other websites and are not responsible for what they contain.</p><h3 style="margin:26px 0 8px;font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:#6B5443;font-weight:500">6. Liability</h3><p style="margin:0 0 14px;font-size:15.5px;line-height:1.7;color:#4A3B2E">We take care with this site but give no guarantee that it is complete or free of errors. This does not limit any liability that cannot be excluded by law.</p><h3 style="margin:26px 0 8px;font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:#6B5443;font-weight:500">7. Law</h3><p style="margin:0 0 14px;font-size:15.5px;line-height:1.7;color:#4A3B2E">Austrian law applies, as far as the law allows.</p><!-- DRAFT: replace the [brackets] with real details and have the legal text checked before the site goes live --></div>
+<div data-if="mImp" class="md-panel" data-d="block" style="position:relative;background:#FCFAF6;border:1px solid #E6DCC9;box-shadow:0 30px 80px rgba(35,47,39,0.35);width:min(680px,100%);max-height:88vh;overflow:auto;padding:clamp(28px,4vw,44px);box-sizing:border-box;color:#3B2D22"><a href="#" class="md-x" aria-label="Close" data-close="1" style="position:absolute;top:12px;right:12px;width:44px;height:44px;display:flex;align-items:center;justify-content:center;z-index:2"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2F3E34" stroke-width="1.6" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"></path></svg></a><h2 style="margin:0 0 6px;font-family:'Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(32px,4vw,42px);line-height:1.1;color:#2F3E34">Imprint</h2>
+<h3 style="margin:26px 0 8px;font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:#6B5443;font-weight:500">Site owner</h3><p style="margin:0 0 14px;font-size:15.5px;line-height:1.7;color:#4A3B2E">[Full name]<br>[Street and number]<br>[Postal code and city]<br>Austria</p><h3 style="margin:26px 0 8px;font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:#6B5443;font-weight:500">Contact</h3><p style="margin:0 0 14px;font-size:15.5px;line-height:1.7;color:#4A3B2E">Email: <a href="mailto:bannaleaf@gmail.com" style="color:#2F3E34;text-decoration:underline">bannaleaf@gmail.com</a><br>Phone: +43 660 000 0000</p><h3 style="margin:26px 0 8px;font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:#6B5443;font-weight:500">Responsible for the content</h3><p style="margin:0 0 14px;font-size:15.5px;line-height:1.7;color:#4A3B2E">[Full name]</p><!-- DRAFT: replace the [brackets] with real details and have the legal text checked before the site goes live --></div>
+<div data-if="mCook" class="md-panel" data-d="block" style="position:relative;background:#FCFAF6;border:1px solid #E6DCC9;box-shadow:0 30px 80px rgba(35,47,39,0.35);width:min(680px,100%);max-height:88vh;overflow:auto;padding:clamp(28px,4vw,44px);box-sizing:border-box;color:#3B2D22"><a href="#" class="md-x" aria-label="Close" data-close="1" style="position:absolute;top:12px;right:12px;width:44px;height:44px;display:flex;align-items:center;justify-content:center;z-index:2"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2F3E34" stroke-width="1.6" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"></path></svg></a><h2 style="margin:0 0 6px;font-family:'Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(32px,4vw,42px);line-height:1.1;color:#2F3E34">Cookie settings</h2>
+<p style="margin:0 0 14px;font-size:15.5px;line-height:1.7;color:#4A3B2E">This site does not set tracking, analytics or advertising cookies, so there is nothing for you to switch on or off.</p><h3 style="margin:26px 0 8px;font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:#6B5443;font-weight:500">What does happen</h3><p style="margin:0 0 14px;font-size:15.5px;line-height:1.7;color:#4A3B2E">The typefaces are loaded from Google Fonts (see the Privacy Policy). Your browser may also keep pictures and files in its cache so the page loads faster. That is normal and does not build a profile of you.</p><h3 style="margin:26px 0 8px;font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:#6B5443;font-weight:500">If this changes</h3><p style="margin:0 0 14px;font-size:15.5px;line-height:1.7;color:#4A3B2E">If we ever add analytics or embedded media, we will ask you here first.</p></div>
+<div data-if="mCart" class="md-panel" data-d="block" style="position:relative;background:#FCFAF6;border:1px solid #E6DCC9;box-shadow:0 30px 80px rgba(35,47,39,0.35);width:min(580px,100%);max-height:88vh;overflow:auto;padding:clamp(28px,4vw,44px);box-sizing:border-box;color:#3B2D22"><a href="#" class="md-x" aria-label="Close" data-close="1" style="position:absolute;top:12px;right:12px;width:44px;height:44px;display:flex;align-items:center;justify-content:center;z-index:2"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2F3E34" stroke-width="1.6" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"></path></svg></a>
+<h2 style="margin:0 0 6px;font-family:'Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(32px,4vw,42px);line-height:1.1;color:#2F3E34">Your cart</h2>
+<div data-if="justAdded" data-d="flex" style="display:flex;align-items:center;gap:10px;margin:14px 0 8px;padding:12px 16px;background:#E8EFE4;border-left:3px solid #2F3E34;font-size:14.5px;line-height:1.5;color:#2F3E34"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2F3E34" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex:none"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg><span>Added to your cart: <span id="md-just-name"></span></span></div>
+<div data-if="cartEmpty" data-d="block" style="padding:18px 0 4px"><p style="margin:0 0 18px;font-size:15.5px;line-height:1.7;color:#4A3B2E">Your cart is empty. Have a look at the teas and add what you like.</p><a href="#" data-close="1" style="display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 28px;font-size:14px;letter-spacing:0.06em;text-transform:uppercase;border-radius:2px;background:#2F3E34;color:#F6F1E7">Browse the shop</a></div>
+<div data-if="cartHas" data-d="block" style="margin-top:8px">
+<div id="md-cart-items"></div>
+<div style="display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:16px 0 4px;border-top:1px solid #2F3E34"><span style="font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:#6B5443">Estimated total</span><span style="font-family:'Cormorant Garamond',Georgia,serif;font-size:32px;color:#2F3E34"><span id="md-cart-total"></span></span></div>
+<div style="margin:18px 0 6px;padding:14px 16px;background:#F1E8D6;border-left:3px solid #A8402B;font-size:14.5px;line-height:1.6;color:#4A3B2E">Prices are indicative and confirmed when we get back to you. No payment is taken on this website.</div>
+<div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:16px"><a href="#" data-open="call" style="display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 28px;font-size:14px;letter-spacing:0.06em;text-transform:uppercase;border-radius:2px;background:#2F3E34;color:#F6F1E7">Send my request</a><a href="#" data-close="1" style="display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 28px;font-size:14px;letter-spacing:0.06em;text-transform:uppercase;border-radius:2px;border:1px solid #2F3E34;color:#2F3E34">Keep browsing</a></div>
+</div>
+</div>
+<div data-if="mSet" class="md-panel" data-d="flex" style="position:relative;display:flex;flex-wrap:wrap;background:#FCFAF6;border:1px solid #E6DCC9;box-shadow:0 30px 80px rgba(35,47,39,0.35);width:min(940px,100%);max-height:92vh;overflow:auto;color:#3B2D22"><a href="#" class="md-x" aria-label="Close" data-close="1" style="position:absolute;top:12px;right:12px;width:44px;height:44px;display:flex;align-items:center;justify-content:center;z-index:2"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2F3E34" stroke-width="1.6" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"></path></svg></a>
+<div style="flex:1 1 300px;min-height:300px;position:relative;background:#FFFFFF"><img width="1000" height="1250" loading="lazy" decoding="async" src="b5a892d9.webp" alt="Five kraft paper tea sample pouches tied with twine" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:contain"></div>
+<div style="flex:1 1 400px;min-width:0;padding:clamp(28px,4vw,48px);box-sizing:border-box;display:flex;flex-direction:column;gap:14px">
+<div style="font-size:13px;letter-spacing:0.12em;text-transform:uppercase;color:#6B5443">The Starter Set</div>
+<h2 style="margin:0;font-family:'Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(32px,4vw,42px);line-height:1.1;color:#2F3E34">Five teas, one week</h2>
+<p style="margin:0;font-size:16px;line-height:1.7;color:#4A3B2E">The easiest way into Menghai pu-erh. Five different teas in small portions, so you can find what you like before you choose a full cake.</p>
+<h3 style="margin:6px 0 2px;font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:#6B5443;font-weight:500">What is inside</h3>
+<ul style="margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:8px"><li style="display:flex;gap:10px;align-items:flex-start;font-size:15.5px;line-height:1.55;color:#4A3B2E"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2F3E34" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex:none;margin-top:4px"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg><span>Five teas, 10 g each. Enough to know, with room for a second try.</span></li><li style="display:flex;gap:10px;align-items:flex-start;font-size:15.5px;line-height:1.55;color:#4A3B2E"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2F3E34" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex:none;margin-top:4px"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg><span>A brewing card with brewing times and plain taste notes.</span></li><li style="display:flex;gap:10px;align-items:flex-start;font-size:15.5px;line-height:1.55;color:#4A3B2E"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2F3E34" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex:none;margin-top:4px"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg><span>Nothing to learn first: no special teaware needed.</span></li></ul>
+<h3 style="margin:6px 0 2px;font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:#6B5443;font-weight:500">How to enjoy it</h3>
+<p style="margin:0;font-size:15.5px;line-height:1.7;color:#4A3B2E">Take one tea a day for a week. Rinse the leaves quickly, steep in short infusions and write down what you notice. By the end you will know whether you lean raw, ripe, or a little of both.</p>
+<div style="display:flex;align-items:baseline;gap:10px;margin-top:6px"><span style="font-family:'Cormorant Garamond',Georgia,serif;font-size:36px;line-height:1;color:#2F3E34">€15</span><span style="font-size:14px;color:#6B5443">/ set</span></div>
+<div style="display:flex;flex-wrap:wrap;gap:12px"><a href="#" data-add="starter" style="display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 28px;font-size:14px;letter-spacing:0.06em;text-transform:uppercase;border-radius:2px;background:#2F3E34;color:#F6F1E7">Add to cart</a><a href="#" data-close="1" style="display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 28px;font-size:14px;letter-spacing:0.06em;text-transform:uppercase;border-radius:2px;border:1px solid #2F3E34;color:#2F3E34">Keep browsing</a></div>
+</div>
+</div>
+<div data-if="mRaw" class="md-panel" data-d="flex" style="position:relative;display:flex;flex-wrap:wrap;background:#FCFAF6;border:1px solid #E6DCC9;box-shadow:0 30px 80px rgba(35,47,39,0.35);width:min(940px,100%);max-height:92vh;overflow:auto;color:#3B2D22"><a href="#" class="md-x" aria-label="Close" data-close="1" style="position:absolute;top:12px;right:12px;width:44px;height:44px;display:flex;align-items:center;justify-content:center;z-index:2"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2F3E34" stroke-width="1.6" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"></path></svg></a>
+<div style="flex:1 1 300px;min-height:300px;position:relative;background:#FFFFFF"><img width="1000" height="1250" loading="lazy" decoding="async" src="b2b80d0a.webp" alt="Round pressed raw pu-erh cake, partly wrapped in paper" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:contain"></div>
+<div style="flex:1 1 400px;min-width:0;padding:clamp(28px,4vw,48px);box-sizing:border-box;display:flex;flex-direction:column;gap:14px">
+<div style="font-size:13px;letter-spacing:0.12em;text-transform:uppercase;color:#6B5443">Sheng · Raw pu-erh</div>
+<h2 style="margin:0;font-family:'Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(32px,4vw,42px);line-height:1.1;color:#2F3E34">Bright and lively</h2>
+<p style="margin:0;font-size:16px;line-height:1.7;color:#4A3B2E">Raw pu-erh is pressed fresh and left to age naturally, so the cup stays bright, floral and full of movement.</p>
+<div><h3 style="margin:0 0 2px;font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:#6B5443;font-weight:500">Taste</h3><p style="margin:0;font-size:15.5px;line-height:1.65;color:#4A3B2E">Fresh and floral, a little green, with a clean finish.</p></div><div><h3 style="margin:0 0 2px;font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:#6B5443;font-weight:500">How it feels</h3><p style="margin:0;font-size:15.5px;line-height:1.65;color:#4A3B2E">Lively and clear. Many people reach for it in the morning or the afternoon.</p></div><div><h3 style="margin:0 0 2px;font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:#6B5443;font-weight:500">Good if</h3><p style="margin:0;font-size:15.5px;line-height:1.65;color:#4A3B2E">you enjoy green tea or oolong.</p></div><div><h3 style="margin:0 0 2px;font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:#6B5443;font-weight:500">Brewing</h3><p style="margin:0;font-size:15.5px;line-height:1.65;color:#4A3B2E">Short steeps, around 10 to 20 seconds. It keeps giving through many infusions.</p></div>
+<div style="display:flex;align-items:baseline;gap:10px;margin-top:4px"><span style="font-family:'Cormorant Garamond',Georgia,serif;font-size:36px;line-height:1;color:#2F3E34">€14</span><span style="font-size:14px;color:#6B5443">/ 100 g</span></div>
+<div style="display:flex;flex-wrap:wrap;gap:12px"><a href="#" data-add="raw" style="display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 28px;font-size:14px;letter-spacing:0.06em;text-transform:uppercase;border-radius:2px;background:#2F3E34;color:#F6F1E7">Add to cart</a><a href="#" data-close="1" style="display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 28px;font-size:14px;letter-spacing:0.06em;text-transform:uppercase;border-radius:2px;border:1px solid #2F3E34;color:#2F3E34">Keep browsing</a></div>
+</div>
+</div>
+<div data-if="mRipe" class="md-panel" data-d="flex" style="position:relative;display:flex;flex-wrap:wrap;background:#FCFAF6;border:1px solid #E6DCC9;box-shadow:0 30px 80px rgba(35,47,39,0.35);width:min(940px,100%);max-height:92vh;overflow:auto;color:#3B2D22"><a href="#" class="md-x" aria-label="Close" data-close="1" style="position:absolute;top:12px;right:12px;width:44px;height:44px;display:flex;align-items:center;justify-content:center;z-index:2"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2F3E34" stroke-width="1.6" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"></path></svg></a>
+<div style="flex:1 1 300px;min-height:300px;position:relative;background:#FFFFFF"><img width="1000" height="1250" loading="lazy" decoding="async" src="1f307362.webp" alt="Round pressed ripe pu-erh cake, partly wrapped in paper" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:contain"></div>
+<div style="flex:1 1 400px;min-width:0;padding:clamp(28px,4vw,48px);box-sizing:border-box;display:flex;flex-direction:column;gap:14px">
+<div style="font-size:13px;letter-spacing:0.12em;text-transform:uppercase;color:#6B5443">Shu · Ripe pu-erh</div>
+<h2 style="margin:0;font-family:'Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(32px,4vw,42px);line-height:1.1;color:#2F3E34">Smooth and deep</h2>
+<p style="margin:0;font-size:16px;line-height:1.7;color:#4A3B2E">Ripe pu-erh goes through a controlled fermentation that gives a dark, mellow, earthy cup, easy to enjoy from the first sip.</p>
+<div><h3 style="margin:0 0 2px;font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:#6B5443;font-weight:500">Taste</h3><p style="margin:0;font-size:15.5px;line-height:1.65;color:#4A3B2E">Smooth, deep and earthy, with a soft sweetness.</p></div><div><h3 style="margin:0 0 2px;font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:#6B5443;font-weight:500">How it feels</h3><p style="margin:0;font-size:15.5px;line-height:1.65;color:#4A3B2E">Calm and warming. A comfortable cup for the evening or after a meal.</p></div><div><h3 style="margin:0 0 2px;font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:#6B5443;font-weight:500">Good if</h3><p style="margin:0;font-size:15.5px;line-height:1.65;color:#4A3B2E">you enjoy black tea or coffee.</p></div><div><h3 style="margin:0 0 2px;font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:#6B5443;font-weight:500">Brewing</h3><p style="margin:0;font-size:15.5px;line-height:1.65;color:#4A3B2E">Rinse the leaves quickly, then steep briefly. It is forgiving: a little too long is rarely a problem.</p></div>
+<div style="display:flex;align-items:baseline;gap:10px;margin-top:4px"><span style="font-family:'Cormorant Garamond',Georgia,serif;font-size:36px;line-height:1;color:#2F3E34">€12</span><span style="font-size:14px;color:#6B5443">/ 100 g</span></div>
+<div style="display:flex;flex-wrap:wrap;gap:12px"><a href="#" data-add="ripe" style="display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 28px;font-size:14px;letter-spacing:0.06em;text-transform:uppercase;border-radius:2px;background:#2F3E34;color:#F6F1E7">Add to cart</a><a href="#" data-close="1" style="display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 28px;font-size:14px;letter-spacing:0.06em;text-transform:uppercase;border-radius:2px;border:1px solid #2F3E34;color:#2F3E34">Keep browsing</a></div>
+</div>
+</div>
+</div>
+</div>
+
+<script>
+(function(){
+var drum=document.getElementById('rv-drum'),stage=document.getElementById('rv-stage');
+if(!drum||!stage)return;
+var N=6,rv=0,paused=false,timer=null,y0=null;
+var calm=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+function render(){
+drum.style.transform='rotateX('+(rv*60)+'deg)';
+var a=((rv%N)+N)%N,dots=document.querySelectorAll('[data-rv-dot]');
+for(var i=0;i<dots.length;i++){dots[i].style.background=(+dots[i].getAttribute('data-rv-dot')===a)?'#F6F1E7':'transparent';}
+}
+function restart(){clearInterval(timer);if(calm)return;timer=setInterval(function(){if(!paused){rv++;render();}},4300);}
+function go(n){rv=n;render();restart();}
+function swipe(dy){if(dy<-45){go(rv+1);}else if(dy>45){go(rv-1);}}
+document.querySelector('[data-rv="prev"]').addEventListener('click',function(){go(rv-1);});
+document.querySelector('[data-rv="next"]').addEventListener('click',function(){go(rv+1);});
+var dots=document.querySelectorAll('[data-rv-dot]');
+for(var i=0;i<dots.length;i++){(function(el){el.addEventListener('click',function(){
+var a=((rv%N)+N)%N,t=+el.getAttribute('data-rv-dot'),d=(((t-a)%N)+N)%N;if(d>3){d-=N;}go(rv+d);});})(dots[i]);}
+stage.addEventListener('mouseenter',function(){paused=true;});
+stage.addEventListener('mouseleave',function(){paused=false;});
+stage.addEventListener('mousedown',function(e){y0=e.clientY;});
+stage.addEventListener('mouseup',function(e){if(y0!=null){swipe(e.clientY-y0);y0=null;}});
+stage.addEventListener('touchstart',function(e){y0=e.touches[0].clientY;},{passive:true});
+stage.addEventListener('touchend',function(e){if(y0!=null){swipe(e.changedTouches[0].clientY-y0);y0=null;}},{passive:true});
+restart();
+})();
+</script>
+
+
+<script>
+(function(){
+var calm=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+var els=document.querySelectorAll('.iw-img');
+if(calm||!els.length||!('IntersectionObserver' in window))return;
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('iw-go');if(e.target.parentElement){e.target.parentElement.classList.add('iw-rowgo');}io.unobserve(e.target);}});},{threshold:0.3});
+[].forEach.call(els,function(el){el.classList.add('iw-arm');if(el.parentElement){el.parentElement.classList.add('iw-rowarm');}io.observe(el);});
+})();
+</script>
+
+
+<script>
+(function(){
+var CAT={starter:{n:'Starter Set',u:'€15 / set',p:15},ripe:{n:'Ripe Pu-erh',u:'€12 / 100 g',p:12},raw:{n:'Raw Pu-erh',u:'€14 / 100 g',p:14},teaware:{n:'Teaware',u:'€30',p:30},gift:{n:'Gift Sets',u:'€50',p:50}};
+var TPL="<div data-id=\"{{ it.id }}\" style=\"display:flex;flex-wrap:wrap;align-items:center;gap:10px 18px;padding:16px 0;border-top:1px solid #E6DCC9\"><div style=\"flex:1 1 170px;min-width:0\"><div style=\"font-family:'Cormorant Garamond',Georgia,serif;font-size:24px;line-height:1.15;color:#2F3E34\">{{ it.name }}</div><div style=\"font-size:13px;color:#6B5443;margin-top:2px\">{{ it.unit }}</div></div><div style=\"display:flex;align-items:center;gap:4px\"><a href=\"#\" aria-label=\"Fewer\" data-act=\"minus\" style=\"width:34px;height:34px;display:flex;align-items:center;justify-content:center;border:1px solid #CDBBA2;color:#2F3E34;font-size:18px;line-height:1\">\u2212</a><span style=\"min-width:30px;text-align:center;font-size:15px\">{{ it.qty }}</span><a href=\"#\" aria-label=\"More\" data-act=\"plus\" style=\"width:34px;height:34px;display:flex;align-items:center;justify-content:center;border:1px solid #CDBBA2;color:#2F3E34;font-size:18px;line-height:1\">+</a></div><div style=\"min-width:54px;text-align:right;font-size:16px;color:#2F3E34\">{{ it.line }}</div><a href=\"#\" data-act=\"remove\" style=\"font-size:12px;color:#6B5443;text-decoration:underline\">Remove</a></div>";
+var cart={},st={modal:null,sent:false,err:false,just:null};
+var els=[].slice.call(document.querySelectorAll('[data-if]'));
+function totals(){var n=0,t=0,s=[];for(var k in CAT){if(cart[k]>0){n+=cart[k];t+=cart[k]*CAT[k].p;s.push(cart[k]+'× '+CAT[k].n);}}return {n:n,t:t,s:s.join(', ')};}
+function flags(){var m=st.modal,c=totals();return {mAny:!!m,mSet:m==='set',mRaw:m==='raw',mRipe:m==='ripe',mCart:m==='cart',mCall:m==='call',mShip:m==='ship',mFaq:m==='faq',mPriv:m==='priv',mTerms:m==='terms',mImp:m==='imp',mCook:m==='cook',cartEmpty:c.n===0,cartHas:c.n>0,justAdded:!!st.just&&m==='cart',showForm:m==='call'&&!st.sent,showThanks:m==='call'&&!!st.sent,showErr:!!st.err};}
+function setText(id,v){var e=document.getElementById(id);if(e)e.textContent=v;}
+function render(){
+var f=flags(),c=totals();
+els.forEach(function(el){var on=!!f[el.getAttribute('data-if')];var d=el.getAttribute('data-d')||'block';el.classList.toggle('on-flex',on&&d==='flex');el.classList.toggle('on-block',on&&d!=='flex');});
+var box=document.getElementById('md-cart-items');
+if(box){box.innerHTML=Object.keys(CAT).filter(function(k){return cart[k]>0;}).map(function(k){var it={id:k,name:CAT[k].n,unit:CAT[k].u,qty:cart[k],line:'€'+(cart[k]*CAT[k].p)};return TPL.replace(/\{\{ it\.(\w+) \}\}/g,function(m,x){return it[x];});}).join('');}
+setText('md-cart-total','€'+c.t);setText('md-cart-count',c.n);setText('md-cart-summary',c.s);setText('md-just-name',st.just||'');
+document.body.style.overflow=st.modal?'hidden':'';
+}
+render();
+document.addEventListener('click',function(e){
+var t=e.target;
+var ad=t.closest&&t.closest('[data-add]');
+if(ad){e.preventDefault();var id=ad.getAttribute('data-add');cart[id]=(cart[id]||0)+1;st={modal:'cart',sent:false,err:false,just:CAT[id].n};render();return;}
+var ac=t.closest&&t.closest('[data-act]');
+if(ac){e.preventDefault();var row=ac.closest('[data-id]'),rid=row&&row.getAttribute('data-id'),act=ac.getAttribute('data-act');
+if(rid&&cart[rid]){st.just=null;if(act==='plus'){cart[rid]++;}else if(act==='minus'){cart[rid]--;if(cart[rid]<=0){delete cart[rid];}}else{delete cart[rid];}render();}return;}
+var o=t.closest&&t.closest('[data-open]');
+if(o){e.preventDefault();st={modal:o.getAttribute('data-open'),sent:false,err:false,just:null};render();return;}
+var s=t.closest&&t.closest('[data-submit]');
+if(s){e.preventDefault();
+var n=(document.getElementById('md-name').value||'').trim(),k=(document.getElementById('md-contact').value||'').trim(),a=document.getElementById('md-agree').checked;
+if(!(n&&k&&a)){st.err=true;render();return;}
+st.err=false;st.sent=true;
+var nm=document.getElementById('md-thanks-name');if(nm)nm.textContent=n;
+var note=document.getElementById('md-thanks-note');if(note)note.textContent='If your email app opened, please press send to finish.';
+render();
+var c=totals(),body='Name: '+n+'\nPhone or email: '+k+(c.n?'\nList: '+c.s+' (estimated total €'+c.t+')':'');
+window.location.href='mailto:bannaleaf@gmail.com?subject='+encodeURIComponent('Call request')+'&body='+encodeURIComponent(body);
+return;}
+var cl=t.closest&&t.closest('[data-close]');
+if(cl){if(cl.classList.contains('md-back')&&t.closest('.md-panel')){return;}e.preventDefault();st.modal=null;st.just=null;render();return;}
+});
+})();
+</script>
+
+</body>
+</html>
